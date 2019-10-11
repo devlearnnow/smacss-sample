@@ -1,0 +1,28 @@
+@import 'theme/default';
+
+/* bg-color */
+$primary-bg-color: map-get($color-map, site-base-white-color);
+$secondary-bg-color: map-get($color-map, site-quarternary-color);
+$tertiary-bg-color: map-get($color-map, site-base-white-color);
+$quaternary-bg-color: map-get($color-map, site-quinary-color);
+$main-bg-color: map-get($color-map, site-primary-color);
+$info-bg-color: map-get($color-map, site-secondary-color);
+$warning-bg-color: map-get($color-map, site-tertiary-color);
+$alert-bg-color: map-get($color-map, site-alert-color);
+
+/* font-color */
+$primary-font-color: #808080;
+$secondary-font-color: #FCFDFF;
+$strong-font-color: map-get($color-map, site-quarternary-color);
+$main-font-color: map-get($color-map, site-primary-color);
+$info-font-color: map-get($color-map, site-secondary-color);
+$warning-font-color: map-get($color-map, site-tertiary-color);
+
+/* font-properties */
+$primary-font-family: sans-serif;
+$primary-font-size: 16px;
+$primary-line-height: 1.5rem;
+$primary-letter-spacing: 0.8pt;
+
+/* border-colors */
+
