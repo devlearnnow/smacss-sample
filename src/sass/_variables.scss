@@ -24,5 +24,36 @@ $primary-font-size: 16px;
 $primary-line-height: 1.5rem;
 $primary-letter-spacing: 0.8pt;
 
-/* border-colors */
+// border-colors
+$primary-border-color: #D3DDE5;
+$secondary-border-color: #A3A3A3;
+$tertiary-border-color: map-get($map: $color-map, $key: site-base-color);
+$strong-border-color: map-get($map: $color-map, $key: site-quarternary-color);
 
+// shadow-color
+$primary-shadow-color: #292929;
+
+// button properties
+$btn-color: #FCFDFF;
+$btn-bg-color: #2A2A72;
+
+$btn-primary-bg-color: map-get($map: $color-map, $key: site-primary-color);
+$btn-primary-shadow-color: darken($btn-primary-bg-color, 30%);
+$btn-secondary-bg-color: #A3A3A3;
+$btn-dark-bg-color: map-get($map: $color-map, $key: site-quaternary-color);
+$btn-info-bg-color: map-get($map: $color-map, $key: site-secondary-color);
+$btn-alert-bg-color: map-get($map: $color-map, $key: site-alert-color);
+$btn-warning-bg-color: map-get($map: $color-map, $key: site-tertiary-color);
+
+$btn-shadow-color: #292929;
+$btn-warning-shadow-color: #D0bfa2;
+$btn-warning-border-color: #d88c00;
+
+$footer-gray: #A3A3A3;
+
+// screen breakpoints
+$x-small-screen-size: 320px;
+$small-screen-size: 480px;
+$middle-screen-size: 980px;
+$large-screen-size: 1200px;
+$x-large-screen-size: 1960px;
